@@ -41,7 +41,7 @@ def gerar_pdf(resultados):
 
 
 def main():
-    st.title("Comparador de Alunos Aprovados")
+    st.title("Encontra alunos aprovados versão 0.7")
     st.write("Carregue um arquivo CSV com os nomes dos alunos e um ou mais PDFs com as listas de aprovados.")
 
     csv_file = st.file_uploader("Carregar arquivo CSV", type=["csv"])
